@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import ninzaCRM.ObjectRepository.CreatePurchaseOrder;
 import ninzaCRM.genericUtilities.FileUtility;
 import ninzaCRM.genericUtilities.WebDriverUtility;
 
