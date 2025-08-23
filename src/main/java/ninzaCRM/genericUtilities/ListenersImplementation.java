@@ -16,11 +16,10 @@ public class ListenersImplementation implements ITestListener {
 	ExtentReports report;
 	ExtentTest test;
 
-	@Override
-	public boolean isEnabled() {
-		// TODO Auto-generated method stub
-		return ITestListener.super.isEnabled();
-	}
+//	public boolean isEnabled() {
+//		// TODO Auto-generated method stub
+//		return ITestListener.super.isEnabled();
+//	}
 
 	@Override
 	public void onTestStart(ITestResult result) {
