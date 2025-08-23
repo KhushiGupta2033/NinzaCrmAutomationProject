@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -90,20 +89,20 @@ public class ListenersImplementation implements ITestListener {
 		
 String screenshotName= methodName+j.getSystemDate();
 		
-		try {
-//			Only for screen shot
-//			w.captureScreenShot(BaseClass.sdriver, screenshotName);
-			
-//			To attach screenshot to report-- taking reference from the absolute path returned from the SS method
-			String path=w.captureScreenShot(BaseClass.sdriver, screenshotName);
-			test.addScreenCaptureFromPath(path);
-			
-			
-		} catch (IOException e) {
-		
-			e.printStackTrace();
-		}
-		
+//		try {
+////			Only for screen shot
+////			w.captureScreenShot(BaseClass.sdriver, screenshotName);
+//			
+////			To attach screenshot to report-- taking reference from the absolute path returned from the SS method
+//			String path=w.captureScreenShot(BaseClass.sdriver, screenshotName);
+//			test.addScreenCaptureFromPath(path);
+//			
+//			
+//		} catch (IOException e) {
+//		
+//			e.printStackTrace();
+//		}
+//		
 		
 //		Log the status as pass in the extent report
 		test.log(Status.SKIP,"Test Execeution Skipped for "+ methodName);

@@ -10,6 +10,7 @@ import ninzaCRM.ObjectRepository.CampaignPage;
 import ninzaCRM.ObjectRepository.CreateCampaignsPage;
 import ninzaCRM.genericUtilities.BaseClass;
 
+
 @Listeners(ninzaCRM.genericUtilities.ListenersImplementation.class)
 public class Tc_01_CreateCampiagnTest extends BaseClass {
 	
