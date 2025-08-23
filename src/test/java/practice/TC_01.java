@@ -2,7 +2,6 @@ package practice;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 import java.util.Random;
 import java.util.Set;
@@ -120,7 +119,7 @@ public class TC_01 {
 		  int ranSub = ran.nextInt(10);
 
 		  String sub=sobj.getRow(1).getCell(14).toString() + ranSub;
-		  String date=sobj.getRow(1).getCell(13).toString();
+//		  String date=sobj.getRow(1).getCell(13).toString();
 		  String add=sobj.getRow(1).getCell(15).toString();
 		  String billingPO=sobj.getRow(1).getCell(16).toString();
 		  String city=sobj.getRow(1).getCell(17).toString();
